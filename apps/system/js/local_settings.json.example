@@ -1,5 +1,12 @@
 {
-  "network": "Name of your wifi",
-  "password": "Your password",
-  "roaming": false
+  "wifi": {
+    "enabled": false,
+    "network": "Name of your wifi",
+    "password": "Your password"
+  },
+  "cellular": {
+    "roaming": false,
+    "edgeOnly": false,
+    "pin": "0000"
+  }
 }

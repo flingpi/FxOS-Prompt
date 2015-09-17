@@ -1,11 +1,11 @@
 {
-  "name": ">Prompt H/W",
+  "name": "System",
   "type": "certified",
-  "description": ">Prompt - FxOS H/W Main System",
+  "description": "Main System",
   "launch_path": "/index.html",
   "developer": {
     "name": "Gerard Braad",
-    "url": "https://github.com/gbraad/B2G-FxOS-hardware-system"
+    "url": "https://github.com/gbraad/minimal-gaia"
   },
   "fullscreen": true,
   "permissions": {

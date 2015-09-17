@@ -1,9 +1,8 @@
->Prompt - FxOS as a Hardware Platform
-=====================================
+Minimal Gaia
+============
 
-This is the main application for a display-less hardware platform running on 
-Firefox OS.
 
+This is a minimal Gaia implementation.
 
 Instructions
 ------------
@@ -27,16 +26,17 @@ $ APP=system make install-gaia && adb shell stop b2g && adb shell start b2g
 ```
 
 
-Authors
--------
+### Alternative methods
 
-| [!["Gerard Braad"](http://gravatar.com/avatar/e466994eea3c2a1672564e45aca844d0.png?s=60)](http://gbraad.nl "Gerard Braad <me@gbraad.nl>") |
-|---|
-| [@gbraad](https://twitter.com/gbraad)  |
+To flash your changes to your device run:
 
+```bash
+make install-phone
+```
 
-References
-----------
+To clear out the whole device and make a fresh build, run:
 
-* Based on [JanOS](https://github.com/janjongboom/janos)
+```bash
+make reset-phone
+```
 
